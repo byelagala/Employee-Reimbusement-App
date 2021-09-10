@@ -1,0 +1,21 @@
+
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Û‹Ž¡úÿÿÿÿ8“Ø‰Œ»/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(óÂƒ÷úÿÿÿÿ
+a	java:S128/"LEnd this switch case with an unconditional break, return or throw statement.(Ó­ÛÇ
+<	java:S131""Add a default case to this switch.(­®ïýþÿÿÿÿ
+<	java:S131""Add a default case to this switch.(ÍÏ›õûÿÿÿÿ
+<	java:S131%""Add a default case to this switch.(ÍÏ›õûÿÿÿÿ
+<	java:S1310""Add a default case to this switch.(ÍÏ›õûÿÿÿÿ
+<	java:S1319""Add a default case to this switch.(ÍÏ›õûÿÿÿÿ
+9
+java:S1116A"Remove this empty statement.(‘«åæ8þŠ¹‹»/
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¥ŽÑ
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ÍÏ›õûÿÿÿÿ
+f
+java:S1301%"KReplace this "switch" statement by "if" statements to increase readability.(ÍÏ›õûÿÿÿÿ
+f
+java:S13010"KReplace this "switch" statement by "if" statements to increase readability.(ÍÏ›õûÿÿÿÿ
+f
+java:S13019"KReplace this "switch" statement by "if" statements to increase readability.(ÍÏ›õûÿÿÿÿ

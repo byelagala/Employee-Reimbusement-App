@@ -1,0 +1,19 @@
+
+x	java:S116"cRename this field "ers_reimbursementService" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔŠí¤
+
+java:S3008"fRename this field "ers_reimbursementController" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹»Ÿ¬úÿÿÿÿ
+M	java:S1064"9Replace this use of System.out or System.err by a logger.(¾ØÏ<
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ÏªöÀ
+l
+java:S1192!"QDefine a constant instead of duplicating this literal "application/json" 6 times.(›ı’Àøÿÿÿÿ
+d
+java:S11922"ODefine a constant instead of duplicating this literal "list retrieved" 4 times.(ƒˆ–	
+f	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†­Ç
+f	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ÚÉğ
+f	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†âï¦
+f	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†­Ç
+f	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÅŠä
+k	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ±•àıÿÿÿÿ
+e	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æúl
+f	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’û‘İ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ÍÂÃ

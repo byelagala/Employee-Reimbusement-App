@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERS Employee Dashboard </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/reimbEmpDashboard.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h3>Employee Reimbursement Dashboard</h3> 
+          </a>
+
+          <button class="btn btn-outline-danger" id="logout-btn">Logout</button>
+        </div>
+    </nav>  
+
+    <!-- div for success/failed message display -->    
+    <div id="success"></div>
+
+       
+    <!-- 1. add new Reimbursement Ticket as an Employee -->    
+
+    <br>
+    <label for="ReimbursementAmount">Enter Reimbursement Amount:</label>
+    <input class="col-xs-2" id="ReimbursementAmount" type="text" placeholder="Enter Amount" >
+    <br>
+
+    <label for="ReimbursementDescription">Description of Reimbursement </label>
+    <input class="col-sm-3 form-control" id="ReimbursementDescription" type="text" placeholder="Enter Description">
+    <br> 
+
+    <label for="Receipt">Add Reimbursement Receipt</label>
+      <input class="col-xs-2" id="reimb_receipt" type="text" placeholder="add receipt">
+    <br><br>
+
+    <label for="Employee">Enter Employee ersUserId</label>
+    <input class="col-xs-2" id="employee_id" type="text" placeholder="employee_id">
+    <br><br> 
+
+    <label for="Manager">Enter Manager User ID</label>
+    <input class="col-xs-2" id="manager_id" type="text" placeholder="manager_id">
+    <br><br>     
+
+    <label for="ReimbursementStatus">Choose the Reimbursement Status:</label>
+      <select id="reimbursementStatus" name="ReimbursementStatus">
+        <option value=0>0-Denied</option>
+        <option value=1>1-Approved</option>
+        <option value=2>2-Pending</option>
+      </select>
+      <br><br>
+
+     <label for="ReimbursementType">Choose the type of Reimbursement:</label>
+    <select id="reimbursementType" name="ReimbursementType">
+      <option value =1> 1-Lodging </option>
+      <option value =2> 2-Travel </option>
+      <option value =3> 3-food </option>      
+      <option value =4> 4-Other </option>
+    </select> 
+    <br> <br>
+    
+    <!-- <div id='TicketForm'> </div> -->
+    <!-- <div class="new" id="newrow"> </div> -->
+
+    <button id="newReqButton" class="btn btn-success">
+      AddNewReimbursementRequest.
+    </button>
+    <br> <br>   
+
+    <!-- 2. choose Reimbursement based on status -->
+    <label for="ReimbursementStatus">Choose the Reimbursement Status:</label>
+    <select id="reimbursementStatus" name="ReimbursementStatus">
+      <option value="Denied">0-Denied</option>
+      <option value="Approved">1-Approved</option>
+      <option value="Pending">2-Pending</option>    
+      
+    </select>
+    <br> <br>
+    
+    <button id="statusButton" class="btn btn-success">
+     ReimbursementsOnStatus
+    </button>
+    <br> <br>  
+
+     <!-- 3. view all Reimbursements for an employee  -->
+     <button id="viewAllReimbsButton" class="btn btn-success">
+      ViewAllReimbs
+    </button>
+    <br>
+    <div class=container>
+      <div class="view-reimb" id="reimb-container"></div>
+    </div>
+    <br>
+    
+       
+    <!-- <button id="PastTicketsButton" class="btn btn-success">
+             EmployeePendingTickets
+    </button>
+    <br> -->
+
+
+    <script src = "../scripts/reimbEmpDashboard.js"></script>
+    <script src = "../scripts/viewAllEmpReimb.js"></script>
+    <script src = "../scripts/viewEmpReimbOnStatus.js"></script>
+    <script src = "../scripts/addNewReimb.js"></script>
+    <script src="../scripts/globals.js"></script>
+
+</body>
+</html>

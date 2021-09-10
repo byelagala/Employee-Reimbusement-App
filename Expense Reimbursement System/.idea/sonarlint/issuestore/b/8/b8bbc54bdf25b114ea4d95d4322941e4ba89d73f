@@ -1,0 +1,89 @@
+
+h	java:S116"SRename this field "reimb_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ñ‡¨
+l	java:S116"WRename this field "reimb_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı É•
+o	java:S116"ZRename this field "reimb_submitted" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øâ®
+n	java:S116"YRename this field "reimb_resolved" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ö­
+q	java:S116"\Rename this field "reimb_description" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š“Æà
+r	java:S116"XRename this field "reimb_receipt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨´’¾øÿÿÿÿ
+q	java:S116"\Rename this field "ers_users_fk_auth" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùúï‰
+s	java:S116"^Rename this field "ers_users_fk_reslvr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î£¥É
+{	java:S116"fRename this field "ers_reimbursement_status_fk" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡“¨®
+~	java:S116"dRename this field "ers_reimbursement_type_fk" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Ğ“„ûÿÿÿÿ
+\
+java:S1161:":Add the "@Override" annotation above this method signature(Çƒ¾Óüÿÿÿÿ8ÁÇ—»/
+\
+java:S1161>":Add the "@Override" annotation above this method signature(“Ç˜ùÿÿÿÿ8¯ÁÇ—»/
+\
+java:S1161B":Add the "@Override" annotation above this method signature(ìãŞßşÿÿÿÿ8¾ÁÇ—»/
+V
+java:S1161F":Add the "@Override" annotation above this method signature(´ ”w8ÀÁÇ—»/
+\
+java:S1161J":Add the "@Override" annotation above this method signature(ÅÙåÊûÿÿÿÿ8ÁÁÇ—»/
+\
+java:S1161N":Add the "@Override" annotation above this method signature(õÓ¬…üÿÿÿÿ8ÃÁÇ—»/
+W
+java:S1161R":Add the "@Override" annotation above this method signature(¹©©¨8ÄÁÇ—»/
+V
+java:S1161V":Add the "@Override" annotation above this method signature(ˆ›„^8ÏÁÇ—»/
+\
+java:S1161Z":Add the "@Override" annotation above this method signature(®­÷™úÿÿÿÿ8ŞÁÇ—»/
+W
+java:S1161^":Add the "@Override" annotation above this method signature(ŒÙ§›8ßÁÇ—»/
+\
+java:S1161b":Add the "@Override" annotation above this method signature(ˆãÂ£úÿÿÿÿ8áÁÇ—»/
+\
+java:S1161f":Add the "@Override" annotation above this method signature(ˆºÜ‡ûÿÿÿÿ8âÁÇ—»/
+\
+java:S1161j":Add the "@Override" annotation above this method signature(òÆëÌşÿÿÿÿ8ãÁÇ—»/
+W
+java:S1161n":Add the "@Override" annotation above this method signature(Áƒ×á8åÁÇ—»/
+i	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€©Ÿc8¾™ş¹/
+o	java:S100v"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èˆ’ ÿÿÿÿÿ8¾™ş¹/
+j	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¸÷8¿™ş¹/
+j	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á®á±8À™ş¹/
+p	java:S100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ó¹µıÿÿÿÿ8Á™ş¹/
+p	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’´¯îıÿÿÿÿ8Â™ş¹/
+a
+java:S1128"?Remove this unused import 'org.omg.CORBA.portable.InputStream'.(ÂÆ±–úÿÿÿÿ8îŒÜ ¸/
+9
+java:S1128"Remove this duplicated import.(’ïĞ¦üÿÿÿÿ
+4
+java:S1128"Remove this duplicated import.(¸…¼ü
+@
+java:S1128"Remove this duplicated import.(’ïĞ¦üÿÿÿÿ8ïŒÜ ¸/
+;
+java:S1128"Remove this duplicated import.(¸…¼ü8ïŒÜ ¸/
+c	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(¯ş“»ùÿÿÿÿ8Ç™ş¹/
+b	java:S107-"AConstructor has 9 parameters, which is greater than 7 authorized.(ÿ‘ê¿øÿÿÿÿ8”ò˜ş¹/
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Áªø
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ş“»ùÿÿÿÿ8È™ş¹/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ş“»ùÿÿÿÿ8È™ş¹/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ş“»ùÿÿÿÿ8È™ş¹/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ş“»ùÿÿÿÿ8È™ş¹/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ş“»ùÿÿÿÿ8È™ş¹/
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ú’æùÿÿÿÿ
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ú’æùÿÿÿÿ8Ë™ş¹/
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ú’æùÿÿÿÿ
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ú’æùÿÿÿÿ
+k	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ú’æùÿÿÿÿ
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‘ê¿øÿÿÿÿ8Ê™ş¹/
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‘ê¿øÿÿÿÿ8Ê™ş¹/
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‘ê¿øÿÿÿÿ8Ê™ş¹/
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‘ê¿øÿÿÿÿ8Ê™ş¹/
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‘ê¿øÿÿÿÿ8Ê™ş¹/
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‘ê¿øÿÿÿÿ8¢‡‘ş¹/
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘‡¶ßıÿÿÿÿ8Ë™ş¹/
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘‡¶ßıÿÿÿÿ8Ë™ş¹/
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘‡¶ßıÿÿÿÿ8Ì™ş¹/
+r	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ç˜ùÿÿÿÿ8É™ş¹/
+l	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ ”w8—ò˜ş¹/
+r	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÓ¬…üÿÿÿÿ8—ò˜ş¹/
+l	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ›„^8—ò˜ş¹/
+m	java:S117^"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÙ§›8—ò˜ş¹/
+r	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆºÜ‡ûÿÿÿÿ8—ò˜ş¹/
+m	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áƒ×á8—ò˜ş¹/
+r	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èˆ’ ÿÿÿÿÿ8—ò˜ş¹/
+m	java:S117~"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á®á±8˜ò˜ş¹/
+s	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’´¯îıÿÿÿÿ8˜ò˜ş¹/
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘¹·î

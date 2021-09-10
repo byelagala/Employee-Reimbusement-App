@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Reimbursement</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/addNewReimb.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand">Employee Reimburse System</span> 
+          <a type="button" class="btn btn-warning" href="../reimbEmpDashboard">Back</a>
+        <!-- <div>
+          <ul class="nav navbar-nav">
+            <li><a href="/reimbEmpDashboard/back">Back</a></li>
+            <li><a href="/reimbEmpDashboard/logout">Logout</a></li>
+          </ul>
+        </div> -->
+      
+        </div>
+    </nav>
+    <!-- table for display the result -->
+    <div class="row" id="table-row">
+      <table class="table table-hover table-bordered" id="rtable">
+        <thead>
+          <tr>
+            <th>reimb_id</th>
+            <th>ers_users_fk_auth</th>
+            <th>ers_users_fk_rslvr</th>
+            <th>reimb_amount</th>              
+            <th>reimb_submitted</th>
+            <th>reimb_resolved</th>
+            <th>reimb_description</th>
+            <th>reimb-receipt</th>              
+            <th>authorFirstName</th>
+            <th>authorLastName</th>
+            <th>resolverFirstName</th>
+            <th>resolverLastName</th>
+            <th>reimb_status</th>
+            <th>reimb_type</th>
+          </tr>
+        </thead>
+        <tbody id="reimb-body"></tbody>
+      </table>
+    </div> 
+    
+    <!-- "reimb_id": null,
+        "reimb_amount": 200.0,
+        "reimb_submitted": null,
+        "reimb_resolved": null,
+        "reimb_description": "customer visit",
+        "reimb_receipt": "receipt",
+        "ers_users_fk_auth": 6,
+        "ers_users_fk_reslvr": 2,
+        "ers_reimbursement_status_fk": 2,
+        "ers_reimbursement_type_fk": 1 -->
+
+
+    <script src = "../scripts/addNewReimb.js"></script>    
+    <script src="../scripts/globals.js"></script>
+    
+</body>
+</html>
+
+

@@ -1,0 +1,37 @@
+
+u
+java:S3008"_Rename this field "ers_reimbursementDao" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚€²Ö
+Q	java:S125	"<This block of commented-out lines of code should be removed.(ÌßÎð
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ÄÑ™Ê
+N	java:S106="9Replace this use of System.out or System.err by a logger.(Âï›‘
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(Ú–ŽÓ
+N	java:S106}"9Replace this use of System.out or System.err by a logger.(¨’Ì™
+O	java:S106§"9Replace this use of System.out or System.err by a logger.(ý¼ê®
+O	java:S106¨"9Replace this use of System.out or System.err by a logger.(š®þ
+O	java:S106È"9Replace this use of System.out or System.err by a logger.(ý¼ê®
+V	java:S106É"9Replace this use of System.out or System.err by a logger.(×³ï8¸Ê„—»/
+f	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°¡åŠ
+k	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñû‡áýÿÿÿÿ
+e	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—þÁT
+r	java:S117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óùÒûÿÿÿÿ8Üá—»/
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸•ƒâ
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸•ƒâ
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶ÂÑ
+g	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶ÂÑ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÄÛê™
+e
+java:S2095'"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½
+l
+java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½8ˆË„—»/
+f
+java:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½
+m
+java:S2095‹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(–ÒÚÍ8ˆË„—»/
+f
+java:S2095Ñ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½
+f
+java:S2095°"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½
+e
+java:S2095d"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖÐ½

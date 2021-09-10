@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERS Manager Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/reimbManagerDashboard.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h3>Manager Reimbursement Dashboard</h3> 
+          </a>
+
+          <button class="btn btn-outline-danger" id="logout-btn">Logout</button>
+        </div>
+    </nav> 
+    
+      <!-- view all Reimbursements for a Manager  -->
+      <button id="viewAllReimbsButton" class="btn btn-success"> ViewAllReimbs </button>
+      <div class=container>
+        <div class="view-reimb" id="reimb-container"></div>
+      </div>
+      <br>           
+      
+      <!-- Choose Reimbursement on status -->
+
+      <label for="ReimbursementStatus">Choose the Reimbursement Status:</label>
+      <select id="reimbursementStatus" name="ReimbursementStatus">
+        <option value="Denied">0-Denied</option>
+        <option value="Approved">1-Approved</option>
+        <option value="Pending">2-Pending</option>
+         </select>  
+         
+      <br>   
+
+      <!-- <input type="text" id = "status"> -->
+      
+      <button id="statusButton" class="btn btn-success">
+       ReimbursementsOnStatus
+      </button> 
+      <br>
+      <br>  
+      
+      <!-- Update Reimbursement -->
+      
+      <label for="Reimb-id">Reimb-id:</label>
+      <input class="col-xs-2" id="reimb_id" type="text" placeholder="Enter Reimb-id">
+      <br>      
+      <label for="ReimbursementStatusUpdate">Choose the Reimbursement Status:</label>
+      <select id="reimbursementStatusUpdate" name="ReimbursementStatusUpdate">
+        <option value=0>0-Denied</option>
+        <option value=1>1-Approved</option>
+        <option value=2>2-Pending</option>
+      </select>
+      <br><br>
+
+      <button id="updateReimbursement" class="btn btn-success">
+        Update Reimbursement
+      </button>
+      <div class=container>
+        <div class="view-reimb" id="reimb-container"></div>
+      </div>
+      
+      <br>  
+
+    <script src = "../scripts/reimbManagerDashboard.js"></script>
+    <script src = "../scripts/viewAllReimb.js"></script>
+    <script src = "../scripts/reimbOnStatus.js"></script>
+    <script src = "../scripts/updateReimbStatus.js"></script>
+    <script src="../scripts/globals.js"></script>    
+    
+</body>
+</html>

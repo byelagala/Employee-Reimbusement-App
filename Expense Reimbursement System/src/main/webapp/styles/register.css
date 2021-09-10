@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(61, 146, 195);
+}
+
+.register-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#register-form{
+    margin-top: 150px;
+    width: 500px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 2px 2px 8px rgb(98, 98, 98);
+    border-radius: 6px;
+    padding: 15px;
+}
+
+#register-form div{
+    margin: 10px;
+}
+
+#username, #password, #firstname, #lastname, #email, #register-btn{
+    width: 100%;
+    padding: 5px;
+}
+
+#register-btn{
+    border: none;
+    background-color: rgb(41, 124, 233);
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#register-btn:hover{
+    background-color: rgb(41, 86, 233);
+    transition: 400ms;
+}

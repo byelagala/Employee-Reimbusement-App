@@ -1,0 +1,13 @@
+
+u	java:S116"[Rename this field "ers_usersService" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¨Û›ÿÿÿÿÿ
+y
+java:S3008"^Rename this field "ers_usersController" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¨Ûµøÿÿÿÿ
+U
+java:S2441,"?Make "Ers_Users" serializable or don't store it in the session.(„ÅŸÓ
+X	java:S125Y"<This block of commented-out lines of code should be removed.(È· ‚8Ðœ»/
+l
+java:S1192 "QDefine a constant instead of duplicating this literal "application/json" 4 times.(›ý’Àøÿÿÿÿ
+^
+java:S1192,"HDefine a constant instead of duplicating this literal "userObj" 3 times.(„ÅŸÓ
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þ¼ÙÅøÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÈâúÓýÿÿÿÿ
